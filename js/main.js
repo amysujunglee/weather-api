@@ -31,7 +31,7 @@ weatherForecast.send();
 weatherForecast.onload = function() {
 if (weatherForecast.status === 200){
 	fObj = JSON.parse(weatherForecast.responseText);
-    console.log(fObj);
+    // console.log(fObj);
     
     // First row
     var date_raw = fObj.list[0].dt_txt;
